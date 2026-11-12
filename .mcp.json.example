@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vault-radar": {
+      "type": "stdio",
+      "command": "__PROJECT_DIR__/run-mcp.sh",
+      "args": []
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# 시크릿 (절대 커밋 금지)
+.env
+.env.agent
+.env.cli
+*.pem
+*.key
+
+# 로컬 경로가 들어가는 생성 파일 (setup.sh 로 생성)
+.mcp.json
+.cursor/mcp.json
+
+# 스캔 결과·테스트 저장소 (로컬 경로, 탐지 메타데이터 포함)
+scan-results/
+leak-test-repo/
+logs/
+
+# 내부 전용 메모
+내부_*.md
+Vault_Rader_MCP_지시문
+
+.DS_Store
